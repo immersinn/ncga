@@ -71,3 +71,9 @@ target/
 
 # exclude data from source control by default
 /data/
+
+# credentials files
+*.creds
+
+# spyder project stuff
+/.spyproject/
