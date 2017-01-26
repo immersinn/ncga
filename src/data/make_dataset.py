@@ -3,6 +3,7 @@ import os
 import click
 import logging
 from dotenv import find_dotenv, load_dotenv
+    
 
 
 @click.command()
@@ -14,6 +15,9 @@ def main(input_filepath, output_filepath):
     """
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')
+    
+    # Pipe01
+    make_pipe01_dataset()
 
 
 if __name__ == '__main__':
