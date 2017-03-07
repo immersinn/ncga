@@ -1,0 +1,51 @@
+District	Democratic Party Democrat	Republican Party Republican	Other
+1	Brownie Futrell: 36,759	William Cook: 53,138 (I) Approved	
+2	Dorothea White: 39,505	Norman Sanderson: 58,032 (I) Approved	
+3	Erica Smith-Ingram (I) Approved	No candidate	
+4	Angela Bryant: 56,584 (I) Approved	Richard Scott: 27,038	
+5	Donald Davis (I) Approved	No candidate	
+6	No candidate	Harry Brown (I) Approved	
+7	No candidate	Louis Pate (I) Approved	
+8	No candidate	William Rabon (I) Approved	
+9	Andrew Barnhill: 44,743	Michael V. Lee: 60,173 (I) Approved	
+10	No candidate	Brent Jackson (I) Approved	
+11	Albert Pacer: 35,394	Rick Horner: 55,765  Approved	
+12	Susan Byerly: 33,426	Ronald Rabin: 45,228 (I) Approved	
+13	Jane W. Smith: 27,940 (I)	Danny Earl Britt: 34,126  Approved	
+14	Dan Blue Jr. (I) Approved	No candidate	
+15	Laurel Deegan-Fricke: 53,905	John Alexander: 58,999 (I) Approved	Brad Hessel: 5,081 (L)
+16	Jay Chaudhuri: 68,842 (I) Approved	Eric Weaver: 36,530	
+17	Susan Evans: 58,063	Tamara Barringer: 59,105 (I) Approved	Susan Hogarth: 5,191 (L)
+18	Gil Johnson: 46,105	Chad Barefoot: 57,121 (I) Approved	
+19	Toni Morris: 31,149	Wesley Meredith: 40,359 (I) Approved	
+20	Floyd McKissick: 71,865 (I) Approved	No candidate	Barbara Howe: 16,202 (L)
+21	Ben Clark: 49,081 (I) Approved	Dan Travieso: 19,338	
+22	Mike Woodard: 74,693 (I) Approved	T. Greg Doucette: 39,198	
+23	Valerie Foushee: 79,520 (I) Approved	Mary Lopez-Carter: 37,322	
+24	John Thorpe: 33,456	Rick Gunn: 51,833 (I) Approved	
+25	Dannie Montgomery: 30,416	Tom McInnis: 53,621 (I) Approved	
+26	No candidate	Phil Berger (I) Approved	
+27	Michael Garrett: 47,731	Trudy Wade: 54,512 (I) Approved	
+28	Gladys Robinson: 74,232 (I) Approved	Devin R. King: 14,265	
+29	No candidate	Jerry W. Tillman (I) Approved	
+30	Michael Holleman: 22,435	Shirley Randleman: 59,602 (I) Approved	
+31	No candidate	Joyce Krawiec (I) Approved	
+32	Paul Lowe (I) Approved	No candidate	
+33	Jim Beall Graham: 23,809	Cathy Dunn: 59,367  Approved	
+34	No candidate	Andrew Brock (I) Approved	
+35	No candidate	Tommy Tucker (I) Approved	
+36	Robert Brown: 35,664	Paul Newton: 59,584  Approved	
+37	Jeff Jackson: 57,804 (I) Approved	Bob Diamond: 27,279	
+38	Joel Ford: 67,059 (I) Approved	Richard Rivette: 17,764	
+39	Lloyd Scher: 44,655	Dan Bishop: 58,739  Approved	
+40	Joyce Waddell: 61,481 (I) Approved	Marguerite Cooke: 13,032	
+41	Jonathan Hudson: 41,453	Jeff Tarte: 55,519 (I) Approved	Chris Cole: 4,938 (L)
+42	No candidate	Andy Wells (I) Approved	
+43	No candidate	Kathy Harrington (I) Approved	
+44	No candidate	David Curtis: 71,114 (I) Approved	Nic Haag: 20,881 (L)
+45	Art Sherwood: 30,559	Deanna Ballard: 56,758  Approved	
+46	Anne Fischer: 27,106	Warren Daniel: 52,997 (I) Approved	
+47	Mary Jane Boyd: 30,364	Ralph Hise: 56,021 (I) Approved	
+48	Norman Bossert: 37,596	Chuck Edwards: 61,455 (I) Approved	
+49	Terry Van Duyn: 71,828 (I) Approved	No candidate	William Meredith: 24,672 (L)
+50	Jane Hipps: 35,476	Jim Davis: 59,028 (I) Approved	

@@ -1,0 +1,15 @@
+Name	Party	Current Office
+Paul Tine	Independent Unaffiliated	House District 6
+Rick Catlin	Ends.png Republican	House District 20
+N. Leo Daughtry	Ends.png Republican	House District 26
+James Langdon, Jr.	Ends.png Republican	House District 28
+Nathan Baskerville	Electiondot.png Democratic	House District 32
+Paul Stam	Ends.png Republican	House District 37
+Ken Waddell	Electiondot.png Democratic	House District 46
+Rayne Brown	Ends.png Republican	House District 81
+Tricia Cotham	Electiondot.png Democratic	House District 100
+Dan Bishop	Ends.png Republican	House District 104
+Jacqueline Schaffer	Ends.png Republican	House District 105
+Mike Hager	Ends.png Republican	House District 112
+Chris Whitmire	Ends.png Republican	House District 113
+Roger West	Ends.png Republican	House District 120

@@ -1,0 +1,121 @@
+District	Democratic Party Democrat	Republican Party Republican	Other
+1	Sam Davis: 12,240	Bob Steinburg: 25,363 (I) Approved	
+2	Joe Parrish: 14,775	Larry Yarborough: 22,760 (I) Approved	
+3	Marva Fisher Baldwin: 12,638	Michael Speciale: 23,273 (I) Approved	
+4	No candidate	James Dixon (I) Approved	
+5	Howard Hunter III (I) Approved	No candidate	
+6	Warren Judge: 20,471	Beverly Boswell: 22,022  Approved	
+7	Bobbie Richardson: 23,329 (I) Approved	William Duke Hancock II: 11,072	
+8	Charlie Pat Farris: 21,166	Susan Martin: 21,329 (I) Approved	
+9	Brian Farkas: 17,007	Gregory Murphy: 22,869 (I) Approved	
+10	Evelyn Paul: 10,514	John Bell: 26,440 (I) Approved	
+11	Duane Hall: 24,624 (I) Approved	Ray Martin: 12,924	Brian Lewis: 2,897 (L)
+12	George Graham (I) Approved	No candidate	
+13	Rodney Alexander: 12,024	Patricia McElraft: 29,188 (I) Approved	
+14	No candidate	George Cleveland (I) Approved	
+15	Dan Whitten: 5,797	Phillip Shepard: 13,273 (I) Approved	
+16	Steve Unger: 11,656	Chris Millis: 23,649 (I) Approved	
+17	Charles Warren: 16,549	Frank Iler: 32,757 (I) Approved	
+18	Susi Hamilton: 22,006 (I) Approved	Jerry Benton: 14,011	
+19	No candidate	Ted Davis, Jr. (I) Approved	
+20	No candidate	Holly Grange (I) Approved	
+21	Larry Bell (I) Approved	No candidate	
+22	William Brisson (I) Approved	No candidate	
+23	Shelly Willingham (I) Approved	No candidate	
+24	Jean Farmer-Butterfield (I) Approved	No candidate	
+25	James Gailliard: 13,099	Jeffrey Collins: 27,969 (I) Approved	
+26	Rich Nixon: 18,716	Donna McDowell White: 25,899  Approved	
+27	Michael Wray (I) Approved	No candidate	
+28	Patricia Oliver: 10,897	Larry Strickland: 26,161  Approved	
+29	Larry Hall (I) Approved	No candidate	
+30	Paul Luebke: 37,094 (I) Approved	Elissa Fuchs: 13,132	
+31	Henry Michaux, Jr. (I) Approved	No candidate	
+32	Terry Garrison Approved	No candidate	
+33	Rosa Gill (I) Approved	No candidate	
+34	Grier Martin: 31,335 (I) Approved	Bill Morris: 15,049	
+35	Terence Everitt: 22,145	Chris Malone: 25,117 (I) Approved	
+36	Jennifer Ferrell: 23,875	Nelson Dollar: 25,295 (I) Approved	Brian Irving: 2,184 (L)
+37	Randy Barrow: 22,569	Linda Hunt-Williams: 27,448  Approved	Robert Rose: 2,474 (L)
+38	Yvonne Lewis Holley: 28,990 (I) Approved	No candidate	Olen Watson III: 5,196 (L)
+39	Darren Jackson (I) Approved	No candidate	
+40	Joe John: 23,786  Approved	Marilyn Avila: 23,402 (I)	
+41	Gale Adcock: 27,491 (I) Approved	Chris Shoffner: 20,745	
+42	Marvin Lucas, Jr. (I) Approved	No candidate	
+43	Elmer Floyd (I) Approved	No candidate	
+44	William Richardson: 15,433 (I) Approved	Jim Arp: 15,086	
+45	No candidate	John Szoka (I) Approved	
+46	Tim Benton: 11,836	Brenden Jones: 19,607  Approved	Thomas Howell, Jr.: 1,052 (L)
+47	Charles Graham (I) Approved	No candidate	
+48	Garland Pierce (I) Approved	No candidate	
+49	Cynthia Ball: 26,975  Approved	Gary Pendleton: 26,155 (I)	David Ulmer: 2,299 (L)
+50	Graig Meyer: 27,278 (I) Approved	Rod Chaney: 20,347	
+51	Brad Salmon: 14,262 (I)	John Sauls: 17,904  Approved	
+52	No candidate	Jamie Boles (I) Approved	
+53	Jon Blum: 12,678	David Lewis, Sr.: 19,548 (I) Approved	
+54	Robert Reives: 24,773 (I) Approved	Wesley Seawell: 18,534	
+55	Kim Hargett: 13,719	Mark Brody: 20,901 (I) Approved	
+56	Verla Insko (I) Approved	No candidate	
+57	Mary Harrison (I) Approved	No candidate	
+58	Amos Quick Approved	No candidate	
+59	Scott Jones: 19,060	Jon Hardister: 28,980 (I) Approved	
+60	Cecil Brockman (I) Approved	No candidate	
+61	No candidate	John Faircloth (I) Approved	
+62	No candidate	John Blust (I) Approved	
+63	No candidate	Stephen M. Ross (I) Approved	
+64	No candidate	Dennis Riddell (I) Approved	
+65	H. Keith Duncan: 14,336	Bert Jones: 21,857 (I) Approved	
+66	Ken Goodman (I) Approved	No candidate	
+67	Carson R. Snyder: 10,637	Justin Burr: 20,421 (I) Approved	Billy Mills: 7,288 (Unaffiliated)
+68	No candidate	D. Craig Horn (I) Approved	
+69	Gordon B. Daniels: 11,970	Dean Arp: 23,249 (I) Approved	
+70	Lois Bohnsack: 7,789	Patricia Hurley: 24,856 (I) Approved	
+71	Evelyn Terry (I) Approved	No candidate	
+72	Edward Hanes, Jr. (I) Approved	No candidate	
+73	No candidate	Lee Zachary (I) Approved	
+74	Marilynn Baker: 15,626	Debra Conrad: 27,209 (I) Approved	
+75	No candidate	Donny C. Lambeth (I) Approved	
+76	No candidate	Carl Ford (I) Approved	
+77	No candidate	Harry Warren (I) Approved	
+78	Bill McCaskill: 7,579	Allen McNeill: 27,040 (I) Approved	
+79	No candidate	Julia Howard (I) Approved	
+80	No candidate	Sam Watford (I) Approved	
+81	Andy Hedrick: 11,438	Larry Potts: 24,379  Approved	
+82	Earle Schecter: 17,900	Larry G. Pittman: 24,636 (I) Approved	
+83	Jeremy Hachen: 13,407	Linda Johnson: 22,927 (I) Approved	
+84	John Wayne Kahl: 11,266	Rena W. Turner: 25,414 (I) Approved	
+85	No candidate	Josh Dobson (I) Approved	
+86	Tim Barnsback: 12,766	Hugh Blackwell: 21,226 (I) Approved	
+87	No candidate	Destin Hall Approved	
+88	Mary Belk: 21,754  Approved	Rob Bryan: 21,286 (I)	
+89	No candidate	Mitchell Setzer (I) Approved	
+90	Vera Smith Reynolds: 8,641	Sarah Stevens: 23,678 (I) Approved	
+91	Eugene Russell: 12,430	Kyle Hall: 24,639 (I) Approved	
+92	Chaz Beasley: 22,941  Approved	Beth Danae Caulfield: 19,246	
+93	Sue Counts: 19,433	Jonathan Jordan: 21,910 (I) Approved	
+94	Michael T. Lentz: 8,372	Jeffrey Elmore: 24,467 (I) Approved	
+95	No candidate	John Fraley (I) Approved	
+96	No candidate	Jay Adams (I) Approved	
+97	No candidate	Jason Saine (I) Approved	
+98	No candidate	John R. Bradford III: 25,428 (I) Approved	Jane Campbell: 19,597 (Unaffiliated)
+99	Rodney Moore (I) Approved	No candidate	
+100	John Autry Approved	No candidate	
+101	Beverly Earle: 27,476 (I) Approved	Justin Dunn: 8,691	
+102	Becky Carney (I) Approved	No candidate	
+103	Rochelle Rivas: 16,922	William Brawley: 21,702 (I) Approved	
+104	Peter Noris: 19,952	Andy Dulin: 24,700  Approved	
+105	Connie Green-Johnson: 17,689	Scott Stone: 21,853 (I) Approved	
+106	Carla Cunningham (I) Approved	No candidate	
+107	Kelly Alexander, Jr. (I) Approved	No candidate	
+108	No candidate	John Torbett (I) Approved	
+109	Susan Maxon: 13,755	Dana Bumgardner: 21,687 (I) Approved	
+110	No candidate	Kelly Hastings (I) Approved	
+111	No candidate	Timothy K. Moore (I) Approved	
+112	No candidate	David Rogers: 22,938 (I) Approved	Ben Edwards: 9,388 (Unaffiliated)
+113	Maureen Mahan Copelof: 16,726	Cody Henson: 26,848  Approved	
+114	Susan Fisher (I) Approved	No candidate	
+115	John Ager: 25,257 (I) Approved	Frank Moretz: 20,183	
+116	Brian Turner (I) Approved	No candidate	
+117	No candidate	Charles McGrady (I) Approved	
+118	Rhonda Cole Schandevel: 17,549	Michele Presnell: 21,754 (I) Approved	
+119	Joe Sam Queen: 17,480 (I)	Mike Clampitt: 17,757  Approved	
+120	Randy Hogsed: 11,282	Kevin Corbin: 29,047  Approved	

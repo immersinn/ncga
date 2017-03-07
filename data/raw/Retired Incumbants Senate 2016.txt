@@ -1,0 +1,8 @@
+Name	Party	Current Office
+E.S. "Buck" Newton	Ends.png Republican	Senate District 11
+Josh Stein	Electiondot.png Democratic	Senate District 16
+Stan Bingham	Ends.png Republican	Senate District 33
+Fletcher Hartsell	Ends.png Republican	Senate District 36
+Bob Rucho	Ends.png Republican	Senate District 39
+Daniel Soucek	Ends.png Republican	Senate District 45
+Tom Apodaca	Ends.png Republican	Senate District 48
