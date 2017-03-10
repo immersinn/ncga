@@ -11,7 +11,7 @@ import pickle
 
 import numpy
 import pandas
-from textacy.corpus import Corpus
+#from textacy.corpus import Corpus
 
 
 senator_data_session_key = {"2017" : "North Carolina General Assembly - N.C. Senators (2017-2018 Session) Raw.csv",
@@ -257,15 +257,22 @@ def parse_election_data_2014(raw_text, chamber):
             cand_info = []
             for item in sub_sect[1:]:
                 item = item.strip()
-                if item[:5] != 'Note:':
+                if not item:
+                    pass
+                elif item[:5] != 'Note:':
                     party, item = extract_party(item)
                     won, item = extract_won(item)
                     item = item.split(':')
                     name = item[0].strip()
+                    
+                    if name.find('(') > -1:
+                        name = name.split('(')[0].strip()
+                        
                     if len(item) == 2:
                         votes = item[1].strip()
                     else:
                         votes = 'NA'
+                        
                     entry = {'Name' : name,
                              'Party' : party,
                              'Won' : won,
@@ -322,7 +329,7 @@ def load_election_data(chamber, session="2016"):
                                'Won': False}
     
     sen2014 = load_election_data('senate', '2014')
-    sen2014.shape == (82, 8)
+    sen2014.shape == (81, 8)
     sen2014.ix[0].to_dict == {'Chamber': 'S',
                               'District': '1',
                               'Incombant': 'NA',
@@ -363,17 +370,43 @@ def load_election_data(chamber, session="2016"):
             
     df = df[order]
     return(df)
+
+
+def load_replacement_data(session):
+    filename_lookup = {'2014' : '2014 North Carolina GA Replacement Info.csv'}
+    with open(os.path.join(get_data_dir(), 
+                           os.path.join('raw', 
+                                        filename_lookup[session])),'rb') as f:
+        df = pandas.read_csv(f)
+    df['Session'] = session
+    return(df)
+    
+
+def load_repr_data(session):
+    columns = ['District', 'Session', 'Chamber', 'Name', 'Party', 'Incombant']
+    sen = load_election_data('senate', session)
+    sen = sen[sen.Won==True]
+    sen = sen[columns]
+    hou = load_election_data('house', session)
+    hou = hou[hou.Won==True]
+    hou = hou[columns]
+    oth = load_replacement_data(session)
+    oth['Incombant'] = 'Appointed'
+    oth = oth[columns]
+    df = pandas.concat((sen, hou, oth))
+    df.index = range(df.shape[0])
+    return(df)
     
 
 
-def save_corpus(name, corpus, data_sub_dir="processed", compression='gzip'):
-    data_dir = get_data_dir(which='project')
-    path = os.path.join(data_dir, data_sub_dir, name)
-    os.mkdir(path)
-    corpus.save(path=path, name=name, compression=compression)
-    
-    
-def load_corpus(name, data_sub_dir="processed", compression='gzip'):
-    data_dir = get_data_dir(which='project')
-    path = os.path.join(data_dir, data_sub_dir, name)
-    return(Corpus.load(path=path, name=name, compression=compression))
+#def save_corpus(name, corpus, data_sub_dir="processed", compression='gzip'):
+#    data_dir = get_data_dir(which='project')
+#    path = os.path.join(data_dir, data_sub_dir, name)
+#    os.mkdir(path)
+#    corpus.save(path=path, name=name, compression=compression)
+#    
+#    
+#def load_corpus(name, data_sub_dir="processed", compression='gzip'):
+#    data_dir = get_data_dir(which='project')
+#    path = os.path.join(data_dir, data_sub_dir, name)
+#    return(Corpus.load(path=path, name=name, compression=compression))

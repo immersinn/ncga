@@ -1,0 +1,14 @@
+# Order
+
+create_ncga_db.sql
+create_electionsdata_table.sql
+> populate elections_data table
+(create_reps2016_table.sql)
+create_reps2014_table.sql
+> populate master_reprs table w/ current data
+> populate bills table / data
+create_mapping_talbes.sql
+> populate brl table
+
+
+

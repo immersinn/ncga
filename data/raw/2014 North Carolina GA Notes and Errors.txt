@@ -1,0 +1,19 @@
+**Errors**
++ Adcock is in the H(ouse) not S(enate); added "Adcock-S" to lookup table, mapped to "Adcock-H"
++ Robinson is in the S(enate) not H(ouse); added "Robinson-H" to lookup table, mapped to "Robinson-S"
+
+**Replacements**
++ Martin L. Nesbitt, Jr. (D) died on March 6, 2014, and incumbent Terry Van Duyn (D) was appointed on April 3, 2014, to replace Nesbitt.
++ Dan Clodfelter (D) resigned from the Senate on April 8, 2014, and incumbent Jeff Jackson (D) was elected on May 3, 2014, to replace Clodfelter.
++ Josh Stein (D) resigned from the state Senate on March 21, 2016. Jay Chaudhuri (D) was appointed to the seat on April 19, 2016.
++ Daniel Soucek (R) resigned from the state Senate on April 8, 2016. Deanna Ballard (R) was appointed to the seat on April 26, 2016.
++ Tom Apodaca (R) resigned from the state Senate on July 15, 2016. Chuck Edwards (R) was appointed to the seat on August 19, 2016.
++ Jacqueline Schaffer (R) resigned from the state House on April 22, 2016. Scott Stone (R) was appointed to the chamber on May 12, 2016, to replace Schaffer.
++ Charles Jeter (R-92) resigned from the state House on July 25, 2016. Justin Moore (R) was appointed to the seat on August 23, 2016, to fill Jeter's remaining term. Beth Danae Caulfield replaced Jeter on the ballot after he resigned.
++ Michael Hager (R-112) resigned from the state House on August 16, 2016. David Rogers (R) was appointed to the seat on August 19, 2016, to fill Hager's remaining term.
++ Rick Catlin (R-20) resigned from the state House on August 15, 2016. Holly Grange (R) was appointed to the chamber on August 29, 2016, to replace Catlin.
++ (Chris) Sgro-H appointed by McCrory (http://www.newsobserver.com/news/politics-government/politics-columns-blogs/under-the-dome/article71887807.html)
++ (William Richardson) was first appointed to the chamber on August 29, 2015, by Democratic leaders in Cumberland County to replace Rick Glazier (D), who resigned to take another job. He was sworn-in on September 1.
++ (Kyle Hall) was first appointed to the chamber on November 9, 2015, by Republicans in Stokes and Rockingham counties to replace Bryan Holloway (R), who resigned to take another job. He was sworn-in on November 23.
++ (Gregory Murphy) was first appointed to the chamber on October 19, 2015, by Pitt County Republicans.
++ (Paul Lowe) was first appointed to the chamber on January 30, 2015, to replace Earline Parmon (D), who resigned on January 28.
