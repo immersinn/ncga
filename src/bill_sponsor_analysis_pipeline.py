@@ -9,41 +9,14 @@ Created on Thu Mar  9 17:36:10 2017
 import pandas
 
 import utils
-import bill_proc_utils
+import bill_proc_utils as bpu
 
-
-name_suffix_list = ['Jr', 'Sr', 'II', 'III', 'IV']
-    
-def get_last_name(full_name):
-    name_parts = [p.strip() for p in full_name.split()]
-    name_parts = [p for p in name_parts if p]
-    
-    last = ''
-    if name_parts[-1].strip('.') not in name_suffix_list:
-        last = name_parts[-1]
-    else:
-        last = name_parts[-2].strip(',')
-    return(last)
-
-
-def get_first_name(full_name):
-    return(full_name.split()[0])
-
-
-def get_firstinit(full_name):
-    return(full_name[0])
-
-
-def get_filn(full_name):
-    l = get_last_name(full_name)
-    f = get_firstinit(full_name)
-    return(f+'.'+l)
     
 
 def build_name_lookup_func(reprs_df):
     
-    last_names = [get_last_name(n) for n in reprs_df.Name]
-    firstinits = [get_firstinit(n) for n in reprs_df.Name]
+    last_names = [bpu.get_last_name(n) for n in reprs_df.Name]
+    firstinits = [bpu.get_firstinit(n) for n in reprs_df.Name]
     name_info = pandas.DataFrame(data={'LN':last_names,
                                        'FILN':[f+'.'+l for l,f in zip(last_names, firstinits)],
                                        'Chamber':reprs_df.Chamber},
@@ -73,33 +46,41 @@ def build_name_lookup_func(reprs_df):
     return(lambda n,c: name_lookup(n,c))
 
 
+def post_proc_bi(bi):
+    columns = ['session', 'house', 'bill', 'content', 'long_title', 'table_info', 'keywords']
+    new_cols = ['Session', 'Chamber', 'Bill', 'Content', 'LongTitle', 'TableInfo', 'Keywords']
+    bi = bi[columns]
+    bi.columns = new_cols
+    return(bi)
+
 
 def main(session):
 
     # Load Representative and Bill data for session
     all_reps = utils.load_repr_data(session)
-    all_reps['Label'] = all_reps.apply(lambda x: get_filn(x.Name) + " (" + x.Party + ")", axis=1)
+    all_reps['Label'] = all_reps.apply(lambda x: bpu.get_filn(x.Name) + " (" + x.Party + ")", axis=1)
     btfc = utils.load_filed_bill_data()
+    btfc = post_proc_bi(btfc)
     nluf = build_name_lookup_func(all_reps)
        
     
     # Extract Sponsor Name info from Bill Metadata
-    btfc['sponsors'] = btfc.table_info.apply(lambda x: bill_proc_utils.extract_sponsors(x))
-    sponsors_info = btfc.apply(lambda x: [{'bill_ix' : x.name,
-                                           'name' : s,
-                                           'chamber' : x.house} for s in x.sponsors], axis=1)
+    btfc['Sponsors'] = btfc['TableInfo'].apply(lambda x: bpu.extract_sponsors(x))
+    sponsors_info = btfc.apply(lambda x: [{'BillID' : x.name,
+                                           'Name' : s,
+                                           'Chamber' : x['Chamber']} for s in x['Sponsors']], axis=1)
     sponsors_info = pandas.DataFrame([s for l in sponsors_info for s in l])
-    sponsors_info['sponsor_ix'] = [nluf(sponsors_info.name[i], sponsors_info.chamber[i]) \
+    sponsors_info['SponsorID'] = [nluf(sponsors_info['Name'][i], sponsors_info['Chamber'][i]) \
                                    for i in sponsors_info.index]
     
 #    # Missing data stuff
 #    missing = sponsors_info[sponsors_info.sponsor_ix==-1]
 #    missing_names = set(missing.name)
     
-    sponsors_info = sponsors_info[sponsors_info.sponsor_ix != -1]
+    sponsors_info = sponsors_info[sponsors_info['SponsorID'] != -1]
     
     # Compute total counts per repr
-    counts = pandas.DataFrame(sponsors_info.groupby('sponsor_ix').apply(len))
+    counts = pandas.DataFrame(sponsors_info.groupby('SponsorID').apply(len))
     counts.columns = ['BillCount']
     no_bills = set(all_reps.index).difference(set(counts.index))
     counts = pandas.concat((counts, 
