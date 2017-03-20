@@ -50,10 +50,17 @@ def get_data_dir(which='project'):
     return(data_dir)
 
 
+def get_report_image_dir():
+    main_dir = get_main_dir()
+    image_dir = os.path.join(main_dir, 'reports', 'images')
+    return(image_dir)
+
+
 def load_filed_bill_data(data_dir=''):
     if not data_dir:
         data_dir = get_data_dir(which="project")
-        data_dir = os.path.join(data_dir, 'raw')
+        #data_dir = os.path.join(data_dir, 'raw')
+        data_dir = os.path.join(data_dir, 'interim')
         
     # Load
     with open(os.path.join(data_dir, "bill_texts_filed_content.pkl"), 'rb') as f1:
