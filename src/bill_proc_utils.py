@@ -11,6 +11,11 @@ import re
 
 import pandas
 
+import utils
+
+
+dash_dir = utils.get_report_dashboards_dir()
+
 
 #######################################
 ### General Helper Functions
@@ -30,21 +35,35 @@ def get_last_name(full_name):
         last = name_parts[-2].strip(',')
     return(last)
 
+
 def get_first_name(full_name):
     return(full_name.split()[0])
 
+
 def get_firstinit(full_name):
     return(full_name[0])
+
 
 def get_filn(full_name):
     l = get_last_name(full_name)
     f = get_firstinit(full_name)
     return(f+'.'+l)
 
+
+def build_repr_link(full_name, repr_id, session,
+                    method='internal'):
+    
+    if method=='internal':
+        return(build_repr_internal_link(full_name, repr_id, session))
+    elif method=='ballotpedia':
+        return(build_repr_ballotpedia_link(full_name))
+
+
 def build_repr_ballotpedia_link(full_name):
     url_base = "https://ballotpedia.org/"
     url = url_base + get_first_name(full_name) + "_" + get_last_name(full_name)
     return(url)
+
 
 def build_district_ballotpedia_link(district_no, chamber):
     url_base = "https://ballotpedia.org/"
@@ -54,11 +73,14 @@ def build_district_ballotpedia_link(district_no, chamber):
     return(url)
 
 
-def build_repr_internal_link(full_name):
-    pass
+def build_repr_internal_link(full_name, repr_id, session):
+    #url = "file:///home/immersinn/gits/ncga/reports/dashboards/" + str(session) + "_" + str(repr_id) + '.html'
+    url = str(session) + "_" + str(repr_id) + '.html'
+    return(url)
+
 
 def build_ahref_link(text, url):
-    return('<a href="' + url + '">' + text + '</a>')
+    return('<a href="' + url + '">' + str(text) + '</a>')
 
 
 #######################################
@@ -99,7 +121,7 @@ def build_keywords_df(bill_info, sub_index=[], cutoff=10, sort=True):
 
 
 def build_chamber_keywords_df(bill_info, chamber):
-    sub_index = bill_info['Chamber']==chamber
+    sub_index = list(bill_info['Chamber']==chamber)
     return(build_keywords_df(bill_info, sub_index))
 
 

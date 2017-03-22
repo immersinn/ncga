@@ -1,0 +1,81 @@
+Document - Audit Letter (Incoming)
+Document - Audit Letter (Outgoing)
+Document - Campaign Reporter (Outgoing)
+Document - Candidate Designation of Committee Funds
+Document - Certification of Inactive Status
+Document - Certification of Incorporated Political Committee
+Document - Certification of Return to Active Status
+Document - Certification of Threshold
+Document - Certification of Treasurer
+Document - Certification to Close Committee
+Document - Contribution from a Business Account Statement
+Document - Correspondence Returned Undeliverable or Unclaimed (Incoming)
+Document - Declaration of Intent
+Document - Deferred Notice (Outgoing)
+Document - District Attorney Letter (Incoming)
+Document - District Attorney Letter (Outgoing)
+Document - Forgiven Loan Statement
+Document - Independent Expenditure Political Committee Certification
+Document - Loan Proceeds Statement
+Document - Miscellaneous Correspondence (Incoming)
+Document - Miscellaneous Correspondence (Outgoing)
+Document - Non-Compliance Letter (Incoming)
+Document - Non-Compliance Letter (Outgoing)
+Document - Notice of Candidacy (Incoming)
+Document - Notice of Termination of Active Status (Incoming)
+Document - Notice of Termination of Active Status (Outgoing)
+Document - Notification of Change to Reporting Schedule (Outgoing)
+Document - Other
+Document - Paid Penalty Assessment or Forfeiture (Incoming)
+Document - Penalty Appeal (Incoming)
+Document - Penalty Appeal Decision (Outgoing)
+Document - Penalty Assessment - 30 Days Aged (Outgoing)
+Document - Penalty Assessment - 60 Days Aged (Outgoing)
+Document - Penalty Assessment - Referral for Collection (Outgoing)
+Document - Penalty Assessment Letter (Incoming)
+Document - Penalty Assessment Letter (Outgoing)
+Document - Penalty Resolution Agreement Executed (Incoming)
+Document - Penalty Resolution Agreement Proposal (Outgoing)
+Document - Penalty Waiver Letter (Incoming)
+Document - Penalty Waiver Letter (Outgoing)
+Document - Political Party Executive Committee Exempt Sales Plan
+Document - Rescind Letter (Outgoing)
+Document - Signed Penalty Waiver Agreement (Incoming)
+Document - Statement of Organization
+Report - 24-Hour Electioneering Communications
+Report - 48-Hour
+Report - Annual
+Report - Candidate Specific Communications
+Report - Electioneering Communications Report
+Report - Federal Mid Year
+Report - Federal Year End
+Report - Final
+Report - First Quarter
+Report - Fourth Quarter
+Report - Independent Expenditure for non-Committees
+Report - Independent Expenditure for Registered Committees
+Report - Independent Expenditure Report
+Report - Interim
+Report - Judicial Qualifying Contributions Report
+Report - Mid Year Semi-Annual
+Report - Monthly
+Report - Municipal Voter-Owned Election Qualifying Contributions
+Report - Non-Participating Candidate
+Report - Organizational
+Report - Post General
+Report - Post Primary
+Report - Pre-Election
+Report - Pre-Primary
+Report - Pre-Referendum
+Report - Pre-Runoff
+Report - Second Quarter
+Report - Special
+Report - Supplemental Final
+Report - Ten-day
+Report - Third Quarter
+Report - Thirty-day
+Report - Thirty-five-day
+Report - Twelve-day
+Report - Voter-Owned Election Qualifying Contributions
+Report - Weekly
+Report - Year End Semi-Annual

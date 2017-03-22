@@ -24,12 +24,11 @@ def get_repr_bi(bill_info, repr_bills):
         try:
             st = entry['TableInfo']['ShortTitle']
         except KeyError:
-            st = entry['LongTitle']
+            st = entry['LongTitle'][:50] + '...'
         return(st)
             
     sub_bi = bill_info.ix[repr_bills].copy()
     sub_bi['Title'] = sub_bi.apply(get_title, axis=1)
-    sub_bi = sub_bi[['Session', 'Chamber', 'Bill', 'Title', 'Keywords', 'Sponsors']]
     return(sub_bi)
 
 
@@ -71,7 +70,8 @@ def build_cos_df(bill_ids, repr_id,
     return(repr_cosp_df)
 
 
-def get_repr_data(repr_id, bill_info, reprs_info, reprs_bills, bills_reprs):
+def get_repr_data(repr_id, bill_info, reprs_info, reprs_bills, bills_reprs,
+                  bill_cols = ['Session', 'Chamber', 'Bill', 'Title']):
     
     # List of Bill IDs for Repr
     repr_bills = list(reprs_bills.get_group(repr_id)['BillID'])
@@ -93,14 +93,18 @@ def get_repr_data(repr_id, bill_info, reprs_info, reprs_bills, bills_reprs):
         co = 0
     repr_bkws_df = bpu.build_keywords_df(sub_bi, cutoff=co)
     
+    sub_bi = sub_bi[bill_cols]
+    
     return({'Bills': sub_bi,
             'Cosponsors' : repr_cosp_df,
             'BillKeywords' : repr_bkws_df})
     
     
-def build_test_html(repr_name, table_url_dict, ):
+def build_test_html(repr_name, table_url_dict, n_bills):
     
+    bill_table_url = table_url_dict['bills']
     keyword_table_url = table_url_dict['keywords']
+    cosponsor_table_url = table_url_dict['cosponsors']
     
     html_string = '''
 <html>
@@ -111,9 +115,24 @@ def build_test_html(repr_name, table_url_dict, ):
     <body>
         <h1>NCGA: Summary Info for Representative ''' + str(repr_name) + '''</h1>
         
+            <h3>Sponsored Bills (''' + str(n_bills) + ''' total)</h3>
+            
+            <iframe style="padding:40px" width="90%" height="480" frameborder="0" seamless="seamless" scrolling="yes" \
+    src="''' + bill_table_url + '''"></iframe>
+        
+        
+            <table width="100%">
+                <tr>
+                    <td width="48%"><h3>Bill Keywords</h3></td>
+                    <td width="48%"><h3>Co-Sponsors</h3></td>
+                </tr>
+            </table>
         
         <iframe style="padding:40px" width="48%" height="480" frameborder="0" seamless="seamless" scrolling="yes" align="left"\
     src="''' + keyword_table_url + '''"></iframe>
+    
+        <iframe style="padding:40px" width="48%" height="480" frameborder="0" seamless="seamless" scrolling="yes" align="right"\
+    src="''' + cosponsor_table_url + '''"></iframe>
     
     </body>
 </html>'''
@@ -122,9 +141,43 @@ def build_test_html(repr_name, table_url_dict, ):
 
 
 
+def build_session_page(repr_links, session):
+        
+    def build_ahref_link(text, url):
+        return('<a href="' + url + '">' + str(text) + '</a>')
+    
+    hrefs = [build_ahref_link(n, l) for n,l in repr_links]
+    hrefs_string = '\n\n'.join(hrefs)
+    hrefs_df = pandas.DataFrame(data = [{'HREF' : h} for h in hrefs])
+    table_url = plotly_utils.plotly_table_from_df('test_href_table', hrefs_df)
+    
+    html_string = '''
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <style>body{ margin:0 100; background:whitesmoke; }</style>
+    </head>
+    <body>
+        <h1>NCGA: Session Overview Page for Session ''' + str(session) + '''</h1>
+        
+            <h2>Representative Pages</h2>
+            
+            ''' + hrefs_string + '''
+            
+        <iframe style="padding:40px" width="48%" height="480" frameborder="0" seamless="seamless" scrolling="yes" align="left"\
+    src="''' + table_url + '''"></iframe>
+    
+    </body>
+</html>'''    
+
+    return(html_string)
+
+
 def build_all_pages():
     
     main_repo_dir = utils.get_main_dir()
+    main_html_dir = utils.get_report_html_dir()
+    page_link_list = []
     
     for session in ['2014']:
         # Get data for session
@@ -136,19 +189,45 @@ def build_all_pages():
         reprs_bills = sponsor_info.groupby('SponsorID')
         bills_reprs = sponsor_info.groupby('BillID')
         
-        for repr_id in list(reprs_info.index)[:2]:
+        for repr_id in list(reprs_info.index)[:5]:
             repr_data = get_repr_data(repr_id,
                                       bill_info, reprs_info,
                                       reprs_bills, bills_reprs)
+            
+            # Build tables, get URLs
+            bill_url = plotly_utils.plotly_table_from_df(str(repr_id) + '_billtable',
+                                                       repr_data['Bills'])
             kw_url = plotly_utils.plotly_table_from_df(str(repr_id) + '_kwtable',
                                                        repr_data['BillKeywords'])
+            cos_url = plotly_utils.plotly_table_from_df(str(repr_id) + '_costable',
+                                                       repr_data['Cosponsors'])
             
-            html = build_test_html(repr_id, {'keywords' : kw_url})
-            link_apd = str(session) + "_" + str(repr_id) + '.html'
+            # Build HTML with Table URLs, Repr info
+            html = build_test_html(repr_id, {'bills' : bill_url,
+                                             'keywords' : kw_url,
+                                             'cosponsors' : cos_url,
+                                             },
+                                   repr_data['Bills'].shape[0])
             
-            with open(os.path.join(main_repo_dir, 
-                                   'reports', 'dashboards', link_apd), 'w') as f:
+            link_apd = bpu.build_repr_link('', repr_id, session)
+            #link_apd = str(session) + "_" + str(repr_id) + '.html'
+            
+#            with open(os.path.join(main_repo_dir, 
+#                                   'reports', 'dashboards', link_apd), 'w') as f:
+#                f.write(html)
+
+            with open(os.path.join(main_html_dir, 'reports', 'dashboards', link_apd), 'w') as f:
                 f.write(html)
+                
+            page_link_list.append((repr_id, "http://localhost/ncga/reports/dashboards/" + link_apd))
+            
+        
+        session_page_html = build_session_page(page_link_list, session)
+        link_apd = 'sessionPage_' + str(session) + '.html'
+        
+        with open(os.path.join(main_repo_dir, 
+                                   'reports', 'dashboards', link_apd), 'w') as f:
+                f.write(session_page_html)
 
             
 if __name__=="__main__":

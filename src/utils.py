@@ -8,6 +8,7 @@ Created on Mon Jan 23 13:39:01 2017
 
 import os
 import pickle
+import xml.etree.ElementTree as ET
 
 import numpy
 import pandas
@@ -54,6 +55,36 @@ def get_report_image_dir():
     main_dir = get_main_dir()
     image_dir = os.path.join(main_dir, 'reports', 'images')
     return(image_dir)
+
+
+def get_report_dashboards_dir():
+    main_dir = get_main_dir()
+    dash_dir = os.path.join(main_dir, 'reports', 'dashboards')
+    return(dash_dir)
+
+
+def get_report_html_dir():
+    return('/var/www/html/ncga')
+
+
+def get_creds(name):
+    fd = get_main_dir()
+    cred_path = os.path.join(fd, 'credentials.creds')
+    tree = ET.parse(cred_path)
+    root = tree.getroot()
+    
+    keep = ET.Element('')
+    username = ''
+    password = ''
+    
+    for elem in root:
+        if elem.attrib['name'] == name:
+            keep = elem
+    if keep.tag:
+        username = keep.find('username').text
+        password = keep.find('password').text
+        
+    return(username, password)
 
 
 def load_filed_bill_data(data_dir=''):
