@@ -73,27 +73,37 @@ def build_cos_df(bill_ids, repr_id,
 def get_repr_data(repr_id, bill_info, reprs_info, reprs_bills, bills_reprs,
                   bill_cols = ['Session', 'Chamber', 'Bill', 'Title']):
     
-    # List of Bill IDs for Repr
-    repr_bills = list(reprs_bills.get_group(repr_id)['BillID'])
+    try:
+        # List of Bill IDs for Repr
+        repr_bills = list(reprs_bills.get_group(repr_id)['BillID'])
+    except KeyError:
+        repr_bills = list()
+        
+    if len(repr_bills) > 0:
     
-    # Subset of Bills for Repr
-    sub_bi = get_repr_bi(bill_info, repr_bills)
-    
-    # Co-Sponsor data
-    repr_cosp_df = build_cos_df(repr_bills, repr_id,
-                                reprs_info,
-                                reprs_bills, bills_reprs)
-    
-    # Keyword Data
-    if len(repr_bills) > 40:
-        co = 5
-    elif len(repr_bills) > 20:
-        co = 3
+        # Subset of Bills for Repr
+        sub_bi = get_repr_bi(bill_info, repr_bills)
+        
+        # Co-Sponsor data
+        repr_cosp_df = build_cos_df(repr_bills, repr_id,
+                                    reprs_info,
+                                    reprs_bills, bills_reprs)
+        
+        # Keyword Data
+        if len(repr_bills) > 40:
+            co = 5
+        elif len(repr_bills) > 20:
+            co = 3
+        else:
+            co = 0
+        repr_bkws_df = bpu.build_keywords_df(sub_bi, cutoff=co)
+        
+        sub_bi = sub_bi[bill_cols]
+        
     else:
-        co = 0
-    repr_bkws_df = bpu.build_keywords_df(sub_bi, cutoff=co)
-    
-    sub_bi = sub_bi[bill_cols]
+        sub_bi = pandas.DataFrame(columns=bill_cols)
+        repr_cosp_df = pandas.DataFrame()
+        repr_bkws_df = pandas.DataFrame()
     
     return({'Bills': sub_bi,
             'Cosponsors' : repr_cosp_df,
