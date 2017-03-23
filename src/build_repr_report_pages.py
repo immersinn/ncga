@@ -173,23 +173,19 @@ def build_session_page(repr_links, session):
     return(html_string)
 
 
-def build_all_pages():
+def build_all_pages(build_session_page=False):
     
-    main_repo_dir = utils.get_main_dir()
-    main_html_dir = utils.get_report_html_dir()
     page_link_list = []
     
     for session in ['2014']:
         # Get data for session
         reprs_info, bill_info, sponsor_info = bill_sponsor_analysis_pipeline.main(session)
-#        reprs_info['LinkApend'] = reprs_info.apply(lambda x: str(x.Session) + '_' + str(x.name),
-#                                                   axis=1)
         
         # These are our lookup tables
         reprs_bills = sponsor_info.groupby('SponsorID')
         bills_reprs = sponsor_info.groupby('BillID')
         
-        for repr_id in list(reprs_info.index)[:5]:
+        for repr_id in list(reprs_info.index):
             repr_data = get_repr_data(repr_id,
                                       bill_info, reprs_info,
                                       reprs_bills, bills_reprs)
@@ -210,26 +206,22 @@ def build_all_pages():
                                    repr_data['Bills'].shape[0])
             
             link_apd = bpu.build_repr_link('', repr_id, session)
-            #link_apd = str(session) + "_" + str(repr_id) + '.html'
-            
-#            with open(os.path.join(main_repo_dir, 
-#                                   'reports', 'dashboards', link_apd), 'w') as f:
-#                f.write(html)
 
-            with open(os.path.join(main_html_dir, 'reports', 'dashboards', link_apd), 'w') as f:
+            with open(utils.build_fullpath_file_from_page(link_apd), 'w') as f:
                 f.write(html)
                 
-            page_link_list.append((repr_id, "http://localhost/ncga/reports/dashboards/" + link_apd))
+            page_link_list.append((repr_id, 
+                                   utils.build_fullpath_link_from_page(link_apd)))
+
+        
+        if build_session_page:
+            session_page_html = build_session_page(page_link_list, session)
+            link_apd = 'sessionPage_' + str(session) + '.html'
             
-        
-        session_page_html = build_session_page(page_link_list, session)
-        link_apd = 'sessionPage_' + str(session) + '.html'
-        
-        with open(os.path.join(main_repo_dir, 
-                                   'reports', 'dashboards', link_apd), 'w') as f:
-                f.write(session_page_html)
+            with open(utils.build_fullpath_file_from_page(link_apd), 'w') as f:
+                    f.write(session_page_html)
 
             
 if __name__=="__main__":
-    build_all_pages()
+    build_all_pages(build_session_page=False)
             

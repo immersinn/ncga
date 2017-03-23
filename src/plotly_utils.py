@@ -17,10 +17,22 @@ from plotly.graph_objs import Marker, Line, Data
 import utils
 
 
+def urlmod(url, trim_url, url2localhost):
+    
+    if trim_url:
+        url = url[7:]
+    if url2localhost:
+        url = url[7:]
+        url = utils.dirpath2localhost(url)
+        
+    return(url)
+
+
 def plotly_table_from_df(name, data, 
                          cols=[], 
                          directory='images', 
-                         trim_url=True):
+                         trim_url=False,
+                         url2localhost=True):
     
 #    if not cols:
 #        cols = df.columns
@@ -34,15 +46,15 @@ def plotly_table_from_df(name, data,
                      filename=os.path.join(img_dir, name) + '.html',
                      auto_open=False,)
     
-    if trim_url:
-        table_url = table_url[7:]
+    table_url = urlmod(table_url, trim_url, url2localhost)
         
     return(table_url)
 
 
 def build_sponsor_summary_plot_url(name, reprs_info,
                                    directory='images',
-                                   trim_url=True):
+                                   trim_url=False,
+                                   url2localhost=True):
     
     if directory=='images':
         img_dir = utils.get_report_image_dir()
@@ -69,7 +81,6 @@ def build_sponsor_summary_plot_url(name, reprs_info,
                                filename=os.path.join(img_dir, name) + '.html',
                                auto_open=False,)
     
-    if trim_url:
-        sponsor_summary_url = sponsor_summary_url[7:]
-        
+    sponsor_summary_url = urlmod(sponsor_summary_url, trim_url, url2localhost)
+    
     return(sponsor_summary_url)

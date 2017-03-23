@@ -51,9 +51,13 @@ def get_data_dir(which='project'):
     return(data_dir)
 
 
-def get_report_image_dir():
-    main_dir = get_main_dir()
-    image_dir = os.path.join(main_dir, 'reports', 'images')
+def get_report_image_dir(which='html'):
+    if which == 'html':
+        image_dir = os.path.join(get_report_html_dir(), 
+                                 'reports', 'images')
+    else:
+        main_dir = get_main_dir()
+        image_dir = os.path.join(main_dir, 'reports', 'images')
     return(image_dir)
 
 
@@ -65,6 +69,46 @@ def get_report_dashboards_dir():
 
 def get_report_html_dir():
     return('/var/www/html/ncga')
+
+
+def dirpath2localhost(url):
+    html_rep_dir = get_report_html_dir()
+    url = url.replace(html_rep_dir, "http://localhost/ncga")
+    return(url)
+
+
+def build_fullpath_file_from_filename(filename, where):
+    filepath = os.path.join(get_report_html_dir(),
+                                              'reports', where,
+                                              filename
+                            )
+    return(filepath)
+
+
+def build_fullpath_file_from_page(page):
+    return(build_fullpath_file_from_filename(page, 'dashboards'))
+
+
+def build_fullpath_file_from_image(image):
+    return(build_fullpath_file_from_filename(image, 'images'))
+
+
+def build_fullpath_link_from_filename(filename, where):
+    filepath = dirpath2localhost(
+                                 build_fullpath_file_from_filename(
+                                                                   filename, 
+                                                                   where
+                                                                   )
+                                 )
+    return(filepath)
+
+
+def build_fullpath_link_from_page(page):
+    return(build_fullpath_link_from_filename(page, 'dashboards'))
+
+
+def build_fullpath_link_from_image(image):
+    return(build_fullpath_link_from_filename(image, 'images'))
 
 
 def get_creds(name):

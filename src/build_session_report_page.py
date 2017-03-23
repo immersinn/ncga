@@ -48,8 +48,6 @@ def main():
     
     session = '2014'
     
-    main_repo_dir = utils.get_main_dir()
-    
     reprs_info, bill_info, sponsor_info = bill_sponsor_analysis_pipeline.main(session)
     
     total_bills = bill_info.shape[0]
@@ -57,12 +55,13 @@ def main():
     hou_bills = sum(bill_info['Chamber'] == 'H')
     
     # Build the main bar plot URL
-    sponsor_summary_url = plotly_utils.build_sponsor_summary_plot_url("NC GA Bill Sponsorship Counts 2015-2016",
+    sponsor_summary_url = plotly_utils.build_sponsor_summary_plot_url("NCGA Bill Sponsorship Counts 2015-2016",
                                                                       reprs_info)
     
     reprs_info['PersonURL'] = reprs_info.apply(lambda x: bpu.build_repr_link(x['Name'],
                                                                              x.name,
-                                                                             session),
+                                                                             session,
+                                                                             full=True),
                                                axis=1)
     reprs_info['DistrictURL'] = reprs_info.apply(lambda x: bpu.build_district_ballotpedia_link(x.District, x.Chamber),
                                              axis=1)
@@ -138,7 +137,8 @@ def main():
     </body>
 </html>'''
     
-    with open(os.path.join(main_repo_dir,'reports/dashboards/NCGABillsSummary.html'),'w') as f:
+
+    with open(utils.build_fullpath_file_from_page('NCGABillsSummary.html'),'w') as f:
         f.write(html_string)
         
         

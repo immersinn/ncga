@@ -51,10 +51,11 @@ def get_filn(full_name):
 
 
 def build_repr_link(full_name, repr_id, session,
-                    method='internal'):
+                    method='internal',
+                    full=False):
     
     if method=='internal':
-        return(build_repr_internal_link(full_name, repr_id, session))
+        return(build_repr_internal_link(full_name, repr_id, session, full))
     elif method=='ballotpedia':
         return(build_repr_ballotpedia_link(full_name))
 
@@ -73,9 +74,11 @@ def build_district_ballotpedia_link(district_no, chamber):
     return(url)
 
 
-def build_repr_internal_link(full_name, repr_id, session):
-    #url = "file:///home/immersinn/gits/ncga/reports/dashboards/" + str(session) + "_" + str(repr_id) + '.html'
+def build_repr_internal_link(full_name, repr_id, session, full):
+    #url = "/var/www/html/ncga/reports/dashboards/" + str(session) + "_" + str(repr_id) + '.html'
     url = str(session) + "_" + str(repr_id) + '.html'
+    if full:
+        url = utils.build_fullpath_link_from_page(url)
     return(url)
 
 
