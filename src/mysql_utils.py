@@ -100,8 +100,22 @@ class curInsert:
 
 def df_tuplerow2dict(tuple_row, cols):
     return({col : entry for col, entry in zip(cols, tuple_row)})
-             
+
+
+def convert_date(date):
+    """'YYYY-MM-DD'"""
+    if date.strip():
+        parts = date.split('/')
+        return(parts[2] + '-' + parts[0] + '-' + parts[1])
+    else:
+        return(None)
+        
     
+########################################
+## Insert Functions
+########################################
+
+
 def dump_campdoc_entries(df):
     
     add_entry = ("INSERT INTO " + TABLE + " "
@@ -128,10 +142,39 @@ def dump_campdoc_entries(df):
         return('Fail')
         
 
-def exists_base(cursor, entry):
-    sqlq = "SELECT (1) FROM " + TABLE + " WHERE link = '{}' LIMIT 1"
-    cursor.execute(sqlq.format(entry['link']))
-    if cursor.fetchone():
-        return(True)
-    else:
-        return(False)
+def dump_filed_bills(bills_df):
+    
+    cols_keep = ['Bill', 'SQLDate', 'Title', 'Link', 'Session']
+    cols_lookup = {'Bill' : 'bill_id',
+                   'Session' : 'session',
+                   'SQLDate' : 'date_filed',
+                   'Title' : 'title',
+                   'Link' : 'link',
+                   }
+    
+    bills_df['SQLDate'] = bills_df['Date'].apply(convert_date)
+    bills_df = bills_df[cols_keep]
+    bills_df.columns = [cols_lookup[c] for c in bills_df.columns]
+    
+    add_entry = ("INSERT INTO bills "
+                 "(bill_id, session, date_filed, title, link)"
+                 "VALUES (%(bill_id)s, %(session)s, %(date_filed)s, %(title)s, %(link)s)"
+                )
+    
+    trconv = lambda tr: df_tuplerow2dict(tr, bills_df.columns)
+    
+    try:
+        with curInsert() as cursor:
+            for i,rt in enumerate(bills_df.itertuples()):
+                i += 1
+#                if i == 1 or i % 1000 == 0:
+#                    print('At entry {}'.format(i))
+                cursor.execute(add_entry, trconv(list(rt)[1:]))
+        return('Pass')
+    except KeyboardInterrupt:
+        raise(KeyboardInterrupt)
+    except BaseException as err:
+        err_type = str(type(err))
+        err_msg = str(err.args)
+        logging.error(err_type + ': ' + err_msg)
+        return('Fail')
