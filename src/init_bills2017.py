@@ -7,45 +7,12 @@ Created on Fri Mar 24 16:13:14 2017
 """
 
 import os
-from time import sleep
-import datetime
 import logging
-
 
 import pandas
 
 import utils
-import mysql_utils
-import process_dailyupdates_pages
-
-
-def process_day(date, sleep_time):
-    
-    yr = date.year
-    mo = date.month
-    da = date.day
-    
-    for c in ['H', 'S']:
-        try:
-            logging.info("Retrieving data for Day " + \
-                         datetime.datetime.strftime(date, '%Y-%m-%d') + \
-                         " Chamber: " + c)
-            data = process_dailyupdates_pages.get_DailyUpdateForDateChamber(yr, mo, da, c)
-            data = data[data.Action=='Filed']
-            logging.info("{} new filed billes retrieved".format(data.shape[0]))
-            out = mysql_utils.dump_filed_bills(data)
-            if out == 'Fail':
-                logging.warning("Failed to add to DB.")
-            
-        except KeyboardInterrupt:
-            raise KeyboardInterrupt
-        except BaseException as err:
-            err_type = str(type(err))
-            err_msg = str(err.args)
-            logging.error("Day " + datetime.datetime.strftime(date, '%Y-%m-%d') + \
-                          ": " + err_type + ': ' + err_msg)
-        finally:
-            sleep(sleep_time)
+from runme_dailyupdate_bills import process_day
 
 
 def main(sleep_time=1):
