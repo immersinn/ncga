@@ -83,6 +83,7 @@ class curWithReuse:
     def __exit__(self, exc_type, exc_value, traceback):
         self.cnx.close()
         
+
 class curInsert:
     
     def __init__(self,):

@@ -5,12 +5,13 @@ DROP TABLE IF EXISTS bills;
 #@ _CREATE_TABLE_
 CREATE TABLE bills
 (
-	id			INT NOT NULL AUTO_INCREMENT,
-	bill_id 	VARCHAR(8) NOT NULL,
-	session		YEAR NOT NULL,
-	date_filed	DATE NOT NULL,
-	title		VARCHAR(250),
-	link		VARCHAR(150) NOT NULL,
+	id				INT NOT NULL AUTO_INCREMENT,
+	bill_id 		VARCHAR(8) NOT NULL,
+	session			YEAR NOT NULL,
+	date_filed		DATE NOT NULL,
+	title			VARCHAR(250),
+	link			VARCHAR(150) NOT NULL,
+	page_scraped	TINYINT(1) NOT NULL DEFAULT 0,
 	PRIMARY KEY (id),
 	INDEX yid (session)
 ) ENGINE = InnoDB;
