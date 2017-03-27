@@ -32,8 +32,8 @@ def pull_and_insert(entry):
         if status:            
             # Dump page & Update mysql
             with mongo_utils.collWithBP() as coll:
-                mr = coll.insert_one({'bill_id' : int(id_),
-                                      'html' : html})
+                coll.insert_one({'bill_id' : int(id_),
+                                 'html' : html})
             with mysql_utils.curInsert() as con:
                 con.execute(base_update.format(id_))
                 

@@ -8,6 +8,11 @@ Created on Sat Mar 25 14:31:57 2017
 
 
 from pymongo import MongoClient
+import pandas
+
+
+def dfDocsFromCursor(cursor):
+    return(pandas.DataFrame(data = [e for e in cursor]))
 
     
 class collWith:
@@ -25,8 +30,8 @@ class collWith:
     def __exit__(self, exc_type, exc_value, traceback):
         self.client.close()        
     
-    def query(self, conditions, fields=None):
-        return(self.coll.find(conditions, fields))
+#    def query(self, conditions, fields=None):
+#        return(self.coll.find(conditions, fields))
     
     
 class collWithBP(collWith):
