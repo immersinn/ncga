@@ -23,7 +23,8 @@ def urlmod(url, trim_url, url2localhost):
         url = url[7:]
     if url2localhost:
         url = url[7:]
-        url = utils.dirpath2localhost(url)
+#        url = utils.dirpath2localhost(url)
+        url = utils.dirpath2gitpages(url)
         
     return(url)
 

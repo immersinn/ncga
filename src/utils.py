@@ -68,12 +68,19 @@ def get_report_dashboards_dir():
 
 
 def get_report_html_dir():
-    return('/var/www/html/ncga')
+    #return('/var/www/html/ncga')
+    return(os.path.join(get_main_dir(), 'docs',))
 
 
 def dirpath2localhost(url):
     html_rep_dir = get_report_html_dir()
     url = url.replace(html_rep_dir, "http://localhost/ncga")
+    return(url)
+
+
+def dirpath2gitpages(url):
+    html_rep_dir = get_report_html_dir()
+    url = url.replace(html_rep_dir, "http://immersinn.github.io/ncga")
     return(url)
 
 
@@ -93,13 +100,21 @@ def build_fullpath_file_from_image(image):
     return(build_fullpath_file_from_filename(image, 'images'))
 
 
-def build_fullpath_link_from_filename(filename, where):
-    filepath = dirpath2localhost(
-                                 build_fullpath_file_from_filename(
-                                                                   filename, 
-                                                                   where
-                                                                   )
-                                 )
+def build_fullpath_link_from_filename(filename, where, which='github'):
+    if which=='localhost':
+        filepath = dirpath2localhost(
+                                     build_fullpath_file_from_filename(
+                                                                       filename, 
+                                                                       where
+                                                                       )
+                                     )
+    elif which=='github':
+        filepath = dirpath2gitpages(
+                                     build_fullpath_file_from_filename(
+                                                                       filename, 
+                                                                       where
+                                                                       )
+                                     )
     return(filepath)
 
 
