@@ -209,7 +209,10 @@ def build_all_pages(build_session_page=False):
                                                        repr_data['Cosponsors'])
             
             # Build HTML with Table URLs, Repr info
-            html = build_test_html(repr_id, {'bills' : bill_url,
+            repr_name = reprs_info.ix[repr_id]['Name'] + \
+            " ({}) - District {}".format(reprs_info.ix[repr_id]['Party'],
+                                         reprs_info.ix[repr_id]['District'])
+            html = build_test_html(repr_name, {'bills' : bill_url,
                                              'keywords' : kw_url,
                                              'cosponsors' : cos_url,
                                              },
