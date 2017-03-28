@@ -80,7 +80,7 @@ def dirpath2localhost(url):
 
 def dirpath2gitpages(url):
     html_rep_dir = get_report_html_dir()
-    url = url.replace(html_rep_dir, "http://immersinn.github.io/ncga")
+    url = url.replace(html_rep_dir, "https://immersinn.github.io/ncga")
     return(url)
 
 
