@@ -19,18 +19,19 @@ import process_dailyupdates_pages
 
 def process_day(date, sleep_time):
     
+    logger = logging.getLogger('bills_dailyupdate')
     yr = date.year
     mo = date.month
     da = date.day
     
     for c in ['H', 'S']:
         try:
-            logging.info("Retrieving data for Day " + \
+            logger.info("Retrieving data for Day " + \
                          datetime.datetime.strftime(date, '%Y-%m-%d') + \
                          " Chamber: " + c)
             data = process_dailyupdates_pages.get_DailyUpdateForDateChamber(yr, mo, da, c)
             data = data[data.Action=='Filed']
-            logging.info("{} new filed billes retrieved".format(data.shape[0]))
+            logger.info("{} new filed billes retrieved".format(data.shape[0]))
             out = mysql_utils.dump_filed_bills(data)
             if out == 'Fail':
                 logging.warning("Failed to add to DB.")
@@ -40,7 +41,7 @@ def process_day(date, sleep_time):
         except BaseException as err:
             err_type = str(type(err))
             err_msg = str(err.args)
-            logging.error("Day " + datetime.datetime.strftime(date, '%Y-%m-%d') + \
+            logger.error("Day " + datetime.datetime.strftime(date, '%Y-%m-%d') + \
                           ": " + err_type + ': ' + err_msg)
         finally:
             sleep(sleep_time)
@@ -53,13 +54,16 @@ def main(sleep_time=1):
     The Monday run grabs data from the previous Friday.
     """
     
-    # Config logging
+    # Config logging, logger
     fd = utils.get_main_dir()
     logpath = os.path.join(fd, 'main_bills_dailyupdate.log')
-    logging.basicConfig(filename=logpath,
-                        level=logging.DEBUG,
-                        format='%(asctime)s %(message)s',
-                        datefmt='%m/%d/%Y %I:%M:%S %p')
+    fh = logging.FileHandler(logpath)
+    formatter = logging.Formatter('%(asctime)s %(message)s')
+    fh.setFormatter(formatter)
+    logger = logging.getLogger('bills_dailyupdate')
+    logger.addHandler(fh)
+
+    logger.info('Starting dailyupdate_bills...')
     
     # Get porevious day
     today = datetime.date.today()
@@ -69,7 +73,7 @@ def main(sleep_time=1):
         day = datetime.timedelta(days=1)
     date = today - day
     
-    print("Processing day {}".format(date))
+    logger.info("Processing day {}".format(date))
     process_day(date, sleep_time)
     
     

@@ -9,11 +9,18 @@ Single "runme" for all daily (M-F) tasks that need to be performed in a
 particular sequence.
 """
 
+import logging
+
+
 import runme_dailyupdate_bills
 import runme_update_billpages
 
 
 if __name__=="__main__":
+    
+    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s %(message)s',
+                        datefmt='%m/%d/%Y %I:%M:%S %p')
     
     runme_dailyupdate_bills.main()
     runme_update_billpages.main()

@@ -22,6 +22,8 @@ base_update = 'UPDATE bills SET page_scraped=1 WHERE id={}'
 
 def pull_and_insert(entry):
     
+    
+    logger = logging.getLogger('billpages_update')
     id_ = entry.id
     link = entry.link
     
@@ -38,7 +40,7 @@ def pull_and_insert(entry):
                 con.execute(base_update.format(id_))
                 
         else:
-            logging.warning("Page for Bill {} not successfully retreived".format(id_))
+            logger.warning("Page for Bill {} not successfully retreived".format(id_))
             
     except KeyboardInterrupt:
         raise KeyboardInterrupt
@@ -46,7 +48,7 @@ def pull_and_insert(entry):
     except BaseException as err:
         err_type = str(type(err))
         err_msg = str(err.args)
-        logging.error("Bill {}".format(id_) + \
+        logger.error("Bill {}".format(id_) + \
                       ": " + err_type + ': ' + err_msg)
     finally:
         time.sleep(1)    
@@ -54,16 +56,16 @@ def pull_and_insert(entry):
 
 def main():
     
-    # Config logging
+    # Config logging, logger
     fd = utils.get_main_dir()
     logpath = os.path.join(fd, 'main_billspages_update.log')
-    logging.basicConfig(filename=logpath,
-                        level=logging.DEBUG,
-                        format='%(asctime)s %(message)s',
-                        datefmt='%m/%d/%Y %I:%M:%S %p')
+    fh = logging.FileHandler(logpath)
+    formatter = logging.Formatter('%(asctime)s %(message)s')
+    fh.setFormatter(formatter)
+    logger = logging.getLogger('billpages_update')
+    logger.addHandler(fh)
     
-    
-    logging.info("Starting Bill Pages Update")
+    logger.info("Starting Bill Pages Update")
     
     
     # Get the bills whose pages have not been scraped from the mysqldb
@@ -71,13 +73,13 @@ def main():
         bills = mysql_utils.dfDocsFromCursor(cur)
         
     
-    logging.info("{} bills to pull pages".format(bills.shape[0]) )
+    logger.info("{} bills to pull pages".format(bills.shape[0]) )
         
     # For each bill retrieved, pull page, dup, and update mysql
     _ = bills.apply(pull_and_insert, axis=1)
     
     
-    logging.info("Update complete")
+    logger.info("Update complete")
     
     
 if __name__=="__main__":
