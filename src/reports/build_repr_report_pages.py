@@ -11,10 +11,10 @@ from collections import defaultdict
 
 import pandas
 
-import utils
-import bill_proc_utils as bpu
+from . import utils
+from . import bill_proc_utils as bpu
 import bill_sponsor_analysis_pipeline
-import plotly_utils
+from . import plotly_utils
 
 
 

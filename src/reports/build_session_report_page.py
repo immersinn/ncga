@@ -8,10 +8,10 @@ Created on Mon Mar 20 20:03:14 2017
 
 import os
 
-import utils
-import bill_proc_utils as bpu
+from . import utils
+from . import bill_proc_utils as bpu
 import bill_sponsor_analysis_pipeline
-import plotly_utils
+from .import plotly_utils
 
 
 def build_chamber_summary_table(reprs_info, chamber, sort_by='LN'):

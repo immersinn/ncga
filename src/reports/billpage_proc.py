@@ -44,6 +44,11 @@ def get_meta(soup):
 
 
 def get_session_and_editions(soup):
+    """
+    "supposed to" extract editions info and such from the main bills page
+    """
+    # FIXME
+    
     
     def get_edition_content(target_rows, header_values):
 
@@ -94,3 +99,8 @@ def get_session_and_editions(soup):
                     'content' : edition_content})
     
     return(content)
+
+
+def pipe(bill_pages):
+    
+    bill_pages['meta'] = bill_pages.soup.apply(get_meta)

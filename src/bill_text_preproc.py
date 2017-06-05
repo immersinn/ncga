@@ -48,7 +48,10 @@ def extractRawText(body):
 
 
 def extractLongTitle(body):
-    return(cleanRawText(body.find('p', {'class':'aLongTitle'}).text))
+    try:
+        return(cleanRawText(body.find('p', {'class':'aLongTitle'}).text))
+    except AttributeError:
+        return("")
 
 
 def extractTableContent(body):
@@ -74,7 +77,7 @@ def extract_metadata(soup):
     return(meta_table)
 
 
-def pipe():
+def pipe(bill_texts_df):
     """
     soup = bs(text, 'html.parser')
     raw_text = extractRawText(soup)
@@ -82,30 +85,33 @@ def pipe():
     metadata = extract_metadata(soup)
     """
     
+    
+    bill_texts_df['soup'] = \
+            bill_texts_df['html'].apply(lambda x: bs(x, 'html.parser'))
+    bill_texts_df['content'] = \
+            bill_texts_df['soup'].apply(lambda x: extractRawText(x.body))
+    bill_texts_df['long_title'] = \
+            bill_texts_df['soup'].apply(lambda x: extractLongTitle(x.body))
+    bill_texts_df['table_info'] = \
+            bill_texts_df['soup'].apply(lambda x: extractTableContent(x.body))
+            
+    return None
+
+        
+if __name__=="__main__":
+    
     input_file = "bill_texts_filed.pkl"
     output_file = 'bill_texts_filed_content.pkl'
     data_dir = utils.get_data_dir()
     
     with open(os.path.join(data_dir, 'raw', input_file), 'rb') as f1:
         bill_texts_filed = pandas.DataFrame(pickle.load(f1))
+        
+    pipe(bill_texts_filed)
     
-    
-    bill_texts_filed['soup'] = \
-            bill_texts_filed['text'].apply(lambda x: bs(x, 'html.parser'))
-    bill_texts_filed['content'] = \
-            bill_texts_filed['soup'].apply(lambda x: extractRawText(x.body))
-    bill_texts_filed['long_title'] = \
-            bill_texts_filed['soup'].apply(lambda x: extractLongTitle(x.body))
-    bill_texts_filed['table_info'] = \
-            bill_texts_filed['soup'].apply(lambda x: extractTableContent(x.body))
-            
     bill_texts_filed_content = bill_texts_filed[['session', 'house', 'bill',
                                                  'content', 
                                                  'long_title', 'table_info']]
     
     with open(os.path.join(data_dir, 'interim', output_file), 'wb') as f1:
         pickle.dump(bill_texts_filed_content, f1)
-        
-        
-if __name__=="__main__":
-    pipe()
