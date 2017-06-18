@@ -52,7 +52,7 @@ def extractBillFiledLinks(soup):
 
 
 def extractBillAdoptedLinks(soup):
-    """Extract list of lins for Adopted Bill Texts (HTML & PDF Versions)
+    """Extract list of links for Adopted Bill Texts (HTML & PDF Versions)
     """
     tables = soup.find_all("table")
     content_table = [t for t in tables if t.text.strip().startswith("View Available Bill Summaries")][-1]

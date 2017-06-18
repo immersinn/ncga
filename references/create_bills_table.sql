@@ -5,16 +5,14 @@ DROP TABLE IF EXISTS bills;
 #@ _CREATE_TABLE_
 CREATE TABLE bills
 (
-	id				INT NOT NULL AUTO_INCREMENT,
+    id				INT NOT NULL AUTO_INCREMENT,
 	bill_id 		VARCHAR(8) NOT NULL,
-	session			YEAR NOT NULL,
-	date_filed		DATE NOT NULL,
-	title			VARCHAR(250),
+	edition      VARCHAR(20) NOT NULL,
 	link			VARCHAR(150) NOT NULL,
 	page_scraped	TINYINT(1) NOT NULL DEFAULT 0,
 	PRIMARY KEY (id),
-	INDEX yid (session)
+    FOREIGN KEY (bill_id) REFERENCES bills (id),
 ) ENGINE = InnoDB;
 #@ _CREATE_TABLE_
 
-ALTER TABLE bills ADD CONSTRAINT billyear UNIQUE (bill_id, session);
+ALTER TABLE bills ADD CONSTRAINT billed UNIQUE (bill_id, edition);
