@@ -26,6 +26,7 @@ def extract_links(soup):
                 if a.text == 'HTML':
                     row_info['html'] = a['href']
                 else:
+                    
                     row_info['label'] = a.text.encode('utf8').replace(b'\xc2\xa0', b' ').decode('utf8')
                     row_info['pdf'] = a['href']
             billtext_links.append(row_info)

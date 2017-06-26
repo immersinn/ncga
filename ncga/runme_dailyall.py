@@ -23,4 +23,4 @@ if __name__=="__main__":
                         datefmt='%m/%d/%Y %I:%M:%S %p')
     
     runme_dailyupdate_bills.main()
-    runme_update_billpages.main()
+   # runme_update_billpages.main()

@@ -1,0 +1,2397 @@
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H59">
+   H59
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H59">
+   Revenue Laws Technical Changes.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Signed by Gov. 6/21/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ch. SL 2017-39
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H154">
+   H154
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H154">
+   Gastonia Charter Revisions.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ratified
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ch. SL 2017-37
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H158">
+   H158
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H158">
+   Special Assessments/Critical Infrastructure.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Signed by Gov. 6/21/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ch. SL 2017-40
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H184">
+   H184
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H184">
+   Certain Towns/Sewer Fee Collections.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Concurred In S/Com Sub
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Enrolled
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H192">
+   H192
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H192">
+   Rec. and Music Therapy Licensure.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Finance
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H268">
+   H268
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H268">
+   City of Belmont Charter Revisions.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Regular Message Received For Concurrence in S Com Sub
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H407">
+   H407
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H407">
+   Cabarrus County Commissioners Redistricting.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On State and Local Government I
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Withdrawn From Com
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H451">
+   H451
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H451">
+   Regulate Massage &amp; Bodywork Therapy Estmts.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H491">
+   H491
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H491">
+   Henderson County Fire Tax Districts.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ratified
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ch. SL 2017-38
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H629">
+   H629
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H629">
+   Amend Funeral Procession Law.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H630">
+   H630
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H630">
+   Rylan's Law/Family/Child Protect. &amp; Acc. Act.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Signed by Gov. 6/21/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ch. SL 2017-41
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H669">
+   H669
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H669">
+   Fees to Certify as a Company Police Agency.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H794">
+   H794
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H794">
+   NC Permitting Efficiency Act of 2017.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Sub 2
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H924">
+   H924
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=H924">
+   Honor Meggan Lee Callahan.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 1st Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant 32
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/27/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S3">
+   S3
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S3">
+   DOT/DMV Changes.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S5">
+   S5
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S5">
+   Mecklenburg/Police Countywide Jurisdiction.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Enrolled
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S64">
+   S64
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S64">
+   Veterans' History Awareness Month.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Enrolled
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S69">
+   S69
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S69">
+   Local Gov't Comm/Finance Officer Training.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Finance
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S74">
+   S74
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S74">
+   Update Rabies Control Laws.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S99">
+   S99
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S99">
+   Report Certain CTR Data/Auto Ins. Accuracy.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S104">
+   S104
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S104">
+   Require Criminal BGC/Pharmacist Licensure.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S122">
+   S122
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S122">
+   Repeal Centerville Charter.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Enrolled
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S124">
+   S124
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S124">
+   LEO Managed CBD Oil Drop Box.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Rules, Calendar, and Operations of the House
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S125">
+   S125
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S125">
+   Various Changes to Education.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Rules, Calendar, and Operations of the House
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S148">
+   S148
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S148">
+   Juror Excused by Clerk/Modify Various Appts.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Amend Adopted A1
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Engrossed
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S160">
+   S160
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S160">
+   Handicap Parking Privilege Certification.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S169">
+   S169
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S169">
+   Teaching Excellence Bonus Expansion.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S182">
+   S182
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S182">
+   Prohibit Use of Light Bars on Motor Vehicles.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Withdrawn From Cal
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S196">
+   S196
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S196">
+   Veterinary Practice Omnibus.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S217">
+   S217
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S217">
+   Richmond/Right-of-Way Safety.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S249">
+   S249
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S249">
+   Coyote Bounty Pilot Program.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S257">
+   S257
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S257">
+   Appropriations Act of 2017.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Conf Report Adopted 2nd
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S260">
+   S260
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S260">
+   Wake Forest Annexation.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S265">
+   S265
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S265">
+   Creedmoor Charter Revised &amp; Consolidated.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Finance
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S285">
+   S285
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S285">
+   Equal Representation for Asheville.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S323">
+   S323
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S323">
+   UNC Public Records/Athletic Conferences.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S350">
+   S350
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S350">
+   LME/MCO Claims Reporting/Mental Health Amdts.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S388">
+   S388
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S388">
+   Incapacity to Proceed.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S410">
+   S410
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S410">
+   Marine Aquaculture Development Act.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S413">
+   S413
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S413">
+   Clarify Motor Vehicle Dealer Laws.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S414">
+   S414
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S414">
+   Use of Funding Pool Grant Funds/Macon County.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Appropriations
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S415">
+   S415
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S415">
+   Clarify Def'n. of Collection Agency.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S448">
+   S448
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S448">
+   Professors in the Classroom.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S545">
+   S545
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S545">
+   State Nature and Historic Preserve Adds/Dels.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Withdrawn From Cal
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S567">
+   S567
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S567">
+   Reform/Correct/Wills and Trusts.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S578">
+   S578
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S578">
+   Veteran-Owned Small Business/Annual Report.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Withdrawn From Cal
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S593">
+   S593
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S593">
+   Arbitration and Mediation for Business Court.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S599">
+   S599
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S599">
+   Excellent Educators for Every Classroom.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Finance
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S615">
+   S615
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S615">
+   North Carolina Farm Act of 2017.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Re-ref Com On Finance
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S621">
+   S621
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S621">
+   Business Contracts/Choice of Law and Forum.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Placed On Cal For 06/22/2017
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S656">
+   S656
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S656">
+   Electoral Freedom Act of 2017.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Reptd Fav Com Substitute
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Cal Pursuant Rule 36(b)
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S681">
+   S681
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  <a href="http://www.ncleg.net/gascripts/BillLookUp/BillLookUp.pl?Session=2017&amp;BillID=S681">
+   Honor Ralph Hunt, Sr., Former Member.
+  </a>
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Special Message Received From Senate
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 1st Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Added to Calendar
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 2nd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Passed 3rd Reading
+ </td>
+</tr>
+<tr class="">
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+ </td>
+ <td class="tableText" style="vertical-align: top; text-align: left;">
+  H
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  06/21/2017
+ </td>
+ <td class="tableText" style="vertical-align: top;">
+  Ordered Enrolled
+ </td>
+</tr>

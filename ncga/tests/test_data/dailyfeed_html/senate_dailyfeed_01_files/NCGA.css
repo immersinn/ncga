@@ -1,0 +1,1177 @@
+#ContentMobile
+{
+	display: none;
+}
+
+#ContentStandard
+{
+	display: block;
+}
+
+/* ------------------- Modified Default HTML Tags Begin ------------------ */
+body
+{
+	background-image: url(/Templates/templateGraphics/Background.png);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	/* text-align: center; */
+}
+
+body a
+{
+	color: #1c4e80;
+	text-decoration: none;
+}
+
+body a:visited
+{
+	color: #04316a;
+}
+
+body a:hover
+{
+	text-decoration: underline;
+}
+
+.bodyPrintable
+{
+	background-color: #FFFFFF;
+	background-image: none;
+}
+
+li
+{
+	padding: 1px 1px;
+}
+
+P.breakhere 
+{
+	page-break-before: always;
+}
+
+
+font.bold
+{
+	/* font: bold 12px Helvetica; */
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* input, select, textarea
+{
+	padding: 1px 2px;
+	border: 1px solid #888888;	
+	font-size: 12px;
+	font-weight: bold;	
+	background-color: #EEEEFF;
+} */
+
+form
+{
+	margin: 0px;
+}
+
+table
+{
+	/* font: 13px Helvetica; */
+	font-size: 13px;
+}
+
+td
+{
+	text-align: left;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	
+}
+/* ------------------- Modified Default HTML Tags End -------------------- */
+
+/* ------------------- Menus Begin --------------------------------------- */
+
+.menuMainContainer
+{
+	height: 24px;
+	background-color: #336699;
+	border-top: 5px solid #a01c1c; 
+	border-bottom: 1px solid #001529;
+	text-align: center;
+}
+
+.menuMainContainer table
+{
+	width: 1000px; 
+	height: 24px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.menuItem
+{
+	cursor: pointer;
+	color: #999999;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: 1px solid #567b9f;	
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+/* 	font-variant: small-caps; */
+	text-transform: uppercase;
+	letter-spacing: 1px;	
+}
+
+.menuItem a, .menuItem a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.menuItem a:hover
+{
+	color: #efe37b;
+	text-decoration: underline;
+}
+
+.menuItemFrame, .menuItemFrame a, .menuItemFrame a:visited
+{
+	color: #000000;	
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: .05em;
+	background-color: #8899a9;
+}
+
+.menuItemFrame a:hover
+{
+	color: #0000FF;
+}
+
+.menuList
+{
+	cursor: pointer;
+/* 	color: #000000; */
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+/* 	font-variant: small-caps; */
+	text-transform: capitalize;
+	letter-spacing: 1px;	
+}
+
+.menuList a, .menuList a:visited
+{
+/* 	color: #000000;  */ 
+	text-decoration: none;
+}
+
+.menuList a:hover
+{
+	color: #ed7800;
+	color: #ed7800;
+	text-decoration: underline;
+}
+
+/* ------------------- Menus End ---------------------------------------- */
+
+#toolsContainer
+{	
+/* 	height: 50px;  */
+/*
+	text-align: right; 
+	padding-right: 10px;
+	vertical-align: middle;
+*/
+	width: 450px;	
+	height: 100px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#toolsContainer input:focus, #toolsContainer select:focus 
+{
+	outline: none; 
+}
+
+#toolsContainer td
+{		
+	text-align: left;	
+	background-color: #ffffff;	
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	vertical-align: middle;		
+	margin: 0px;
+	border-bottom: 2px solid #293540;
+	border-top: 1px solid #293540;
+}
+
+.toolsContainerFormButton
+{
+	width: 100%;		
+	color: #FFFFFF;
+   	background-color: #336699;	
+	font-weight: bold;
+	font-size: 11px;	
+	border: 1px solid #222222;
+}
+
+.toolsContainerFormLabel
+{	
+	font-weight: bold; 
+	text-transform: uppercase; 
+	white-space: nowrap; 
+	font-size: 11px; 
+	text-align: right !important; 
+	padding-right: 10px;
+}
+
+.toolsContainerFormField
+{	
+	background-color: #ffffff;		
+	font-size: 11px;		
+	border: none;
+	width: 99%;
+}
+
+.toolsContainerSpacer
+{
+	height: 0px !important; 
+	background-color: transparent !important;
+	border: none;
+	font-size: 0px;
+	display: none;
+}
+
+#sidebar
+{
+	font-size: 11px;
+	padding-left: 5px;
+	vertical-align: top;
+	background-color: transparent;
+	vertical-align: top;
+	width: 175px;
+	/* background-image: url(/Templates/templateGraphics/ToolsLeftBorder.png);*/
+	background-repeat: no-repeat;
+}
+
+#sidebar table
+{
+	font-size: 11px;
+}
+
+
+/* ------------------- Calendars Begin ---------------------------------- */
+.calendar a
+{
+	/* font: small-caps bold 11px Helvetica; */
+	font-weight: bold;
+	font-size: 11px;
+	font-variant: small-caps;
+	color: #2D3F72;
+	text-decoration: none;
+	letter-spacing: .1em;
+}
+
+.calendar a:visited
+{
+	color: #2D3F72;
+}
+
+.calendarArchive
+{
+	font-size: 11px;
+	/* font: 11px Helvetica; */
+}
+
+.calendarArchive a
+{
+	color: #98813D;
+	text-decoration: none;
+}
+
+.calendarArchive a:visited
+{
+	color: #98813D;
+}
+/* ------------------- Calendars End ------------------------------------ */
+
+/* ------------------- Site-Wide Begin ---------------------------------- */
+.helpLink, .helpLink a, .helpLink a:visited
+{
+	color: #0000FF;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: super;
+	padding-left: 3px;
+	padding-right: 2px;
+}
+
+.billCount
+{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+
+#mainBody, #mainBodyContainer
+{
+	background-color: transparent;
+}
+
+#mainBody
+{
+	/* margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 10px; */
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+	text-align: left;	
+}
+
+#mainBodyContainer
+{
+	width: 809px; 
+	vertical-align: top; 
+	padding-top: 5px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	margin-bottom: 20px; 	
+}
+
+#title, .titleClass
+{
+	color: #003366;
+	/* background-color: #e2e5e7; */
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	font-size: 30px;
+	/*padding: 4px;*/
+	font-family: Helvetica, sans-serif; 
+	text-align: left;
+	/*border-bottom: 1px solid #000000; */
+	 
+}
+#titleMember, .titleMemberClass
+{
+	color: #003366;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	font-size: 23px;
+	padding: 4px;
+	/* font-family: Helvetica, sans-serif; */
+	text-align: left;
+
+	 
+}
+#titleMemberBio, .titleMemberBioClass
+{
+	color: #003366;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	font-size: 19px;
+
+	/* font-family: Helvetica, sans-serif; */
+	
+
+	 
+}
+
+
+.titleBlue
+{
+	color: #2D3F72;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	font-size: 35px;
+	/* font-family: Helvetica, sans-serif; */
+	text-align: left;
+	border-bottom: 1px solid #2D3F72;
+}
+
+.titleBlueSmall
+{
+	color: #2D3F72;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	font-size: 28px;
+	/* font-family: Helvetica, sans-serif; */
+	text-align: left;
+	border-bottom: 1px solid #2D3F72;
+}
+
+
+.titleSub
+{
+	color: #000000;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 17px;
+	/* font-family: Helvetica, sans-serif; */
+	text-align: left;
+}
+
+.titleSub2
+{
+	color: #000000;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 17px;
+	/* font-family: Helvetica, sans-serif; */
+	text-align: center;
+}
+
+.titleSmall
+{
+	color: #000000;
+	/* font: bold 13px Helvetica; */
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.noticeLarge
+{
+	color: #a01c1c;
+	/* text-transform: uppercase;*/
+	/* font: small-caps bold 20px Helvetica; */
+	font-size: 14px;
+	font-weight: bold;
+	 font-variant: small-caps; 
+	text-align: left;
+}
+
+.notice
+{
+	color: #a01c1c;
+	font-variant: small-caps;
+	font-size: 12px;
+}
+
+#footer
+{
+	/* display: block; */
+        color: #555555;
+	padding: 2px;
+	margin: 20px 5px 0px 5px;
+	border-top: 1px solid #b2b4b6; 
+	font: 10px Tahoma;
+	text-align: center;
+}
+
+.siteMainColor, .siteMainColor a, .siteMainColor a:visited
+{
+	background-color: #2f549c;
+	color: #FFFFFF;
+}
+
+.siteMainColorLight, .siteMainColorLight a, .siteMainColorLight a:visited
+{
+	background-color: #ced0d2;
+	color: #000000;
+}
+
+.siteTrimColor, .siteTrimColor a, .siteTrimColor a:visited
+{
+	background-color: #b2bdd3;
+	color: #000000;
+}
+
+.siteTrimColorLight, .siteTrimColorLight a, .siteTrimColorLight a:visited
+{
+	background-color: #e6e6e1;
+	color: #000000;
+}
+
+.sectionTitle
+{
+	/* font: bold 12px Helvetica; */
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #003366; /* #2D3F72; */
+	border: 1px solid #000000; /* #5D6FB2; */
+}
+
+.sectionTitle13
+{
+	/* font: bold 13px Helvetica; */
+	font-weight: bold;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #003366;
+	border: 1px solid #000000;
+}
+
+.sectionTitle16
+{
+	font: bold 16px Helvetica;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #2D3F72;
+	border: 1px solid #5D6FB2;
+}
+.sectionBG1 /* Light Gray */
+{
+	background-color: #e2e5e7;
+}
+
+.sectionBG2 /* Darker Light gray */
+{
+	background-color: #ced0d2;
+}
+
+.sectionBG3 /* Light Blue */
+{
+	background-color: #EEEFFF;
+}
+
+.sectionChrono1 /* White - Redistricting Chronology */
+{
+	background-color: #FFFFFF;
+}
+
+.sectionChrono2 /* Gray - Redistricting Chronology */
+{
+	background-color: #F1F1F1;
+}
+
+.listHeader
+{
+	/* border-bottom: 1px solid #b2b4b6;*/
+	/* text-transform: uppercase; */
+	/* font: bold 14px helvetica; */
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+.listHeaderBox
+{
+	background-color: #e2e5e7; 
+	padding: 0px; 
+	color:#336699; 
+	font-weight: bold; 
+	padding: 5px;"
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+	box-shadow:2px 2px #dad7d7;
+}
+.listHeaderBoxRed
+{
+	background-color: #a01c1c; 
+	padding: 0px; 
+	color:#ffffff; 
+	font-weight: bold; 
+	padding: 5px;"
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+	box-shadow:2px 2px #dad7d7;
+}
+
+.list
+{
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.listSmall
+{
+	/* font: 10px Helvetica; */
+	font-size: 10px;
+	margin-top: 3px;
+}
+
+.listBold
+{
+	/* font: bold 12px Helvetica; */
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+.listBold14
+{
+	/* font: bold 14px Helvetica; */
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.listItemPadded
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.faqHeader
+{
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: .2em;
+	text-decoration: underline;
+
+}
+
+.memberTab, .memberTabSelected
+{
+	/* font: bold 12px Helvetica; */
+	font-weight: bold;
+	font-size: 12px;
+	padding: 1px 2px;
+	text-align: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	/* border-bottom: 1px solid black; */
+}
+
+.memberTab
+{
+	background-color: #e2e5e7;
+	border-bottom: 1px solid #000000;
+}
+
+.memberTabSelected
+{
+	background-color: #transparent;	
+}
+
+.memberTabSpacer
+{
+	width: 1px;
+	border-bottom: 1px solid black;
+}
+
+.memberTabBar
+{
+	/* border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	*/
+	background-color: transparent;
+}
+
+.tableHeader
+{
+	/* font: bold 13px Helvetica; */
+	font-weight: bold;
+	font-size: 13px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.tableText
+{
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+	text-align: left;
+}
+
+.identicalBill, .identicalBill:visited
+{
+	color: #AF00AF;
+}
+
+#printable
+{
+	/* background-color: #FFFFFF; */
+	color: #000000;
+
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+
+	padding-right: 10px;
+	padding-top: 2px;
+
+	text-align: right;
+	vertical-align: bottom;
+	/*text-transform: uppercase;
+	 font: 10px Helvetica; */
+	font-size: 10px;
+	background-image: none;
+}
+
+#printable a, #printable a:visited
+{
+	/* color: #0000FF; */
+	text-decoration: none;
+}
+
+.infoBoxItem
+{
+	padding-left: 17px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+	font-size: 12px;
+	text-indent: -7px;
+}
+
+/* ------------------- Site-Wide End ------------------------------------ */
+
+/* ------------------- Front Page Begin --------------------------------- */
+
+.fp_LC_Event
+{
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.fp_ConveneChamber
+{
+	font: bold 13px Helvetica;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.fp_ConveneTime
+{
+	/* font: 12px Helvetica; */
+	font-size: 12px;
+}
+
+/* ------------------- Front Page End ----------------------------------- */
+
+
+
+/* ------------------- Bill Inquiry Section ----------------------------- */
+
+#biTitle
+{
+	background-color: #555555;
+	color: #FFFFFF;
+	/* font: bold 12px Helvetica; */
+	font-weight: bold;
+	font-size: 12px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding: 3px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+#biTitleSub
+{
+	width: 100%;
+	font-weight: bold;
+	font-size: 15px;
+	/* font-family: Helvetica;	 */
+	padding-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#biSelectWindow
+{
+	padding: 10px;
+	/* background-color: #e0e1ef; */
+	background-color: #cccccc;
+	background-image: none;
+	/* font: 13px Helvetica; */
+	font-size: 13px;
+	overflow: auto;
+}
+
+#biSelectWindow form
+{
+	margin: 0px;
+}
+
+#biTabsWindow
+{
+	padding: 10px;
+	background-color: #EEEEEF;
+	background-image: none;
+	/* font: 13px Helvetica; */
+	font-size: 13px;
+	overflow: auto;
+}
+
+#biCriteriaWindow
+{
+	padding: 10px;
+	background-color: #999999;
+	background-image: none;
+	color: #FFFFFF;
+	/* font: 13px Helvetica; */
+	font-size: 13px;
+	overflow: auto;
+}
+
+#biBottomWindow
+{
+	padding: 10px;
+	background-color: #EEEEEE;
+	background-image: none;
+	color: #000000;
+	/* font: 13px Helvetica; */
+	font-size: 13px;
+	border-top: 1px solid black;
+	overflow: auto;
+}
+
+.biConnector
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* ------------------- Bill Inquiry Section End ------------------------- */
+
+/* ------------------- Search Results Page Listing ---------------------- */
+
+.SR_table
+{
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.SR_pageDesc
+{
+	background-color: #A2ACFF;
+	/* border-left: 1px solid black; */
+	padding: 2px 4px 2px 4px;
+}
+
+.SR_direction
+{
+	background-color: #C2CCFF;
+	border-left: 1px solid #9999FF;
+	padding: 2px 4px 2px 4px;
+}
+
+.SR_direction, .SR_direction a, .SR_direction a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.SR_pageLink
+{
+	background-color: #E2ECFF;
+	border-left: 1px solid #9999FF;
+	padding: 2px 4px 2px 4px;
+}
+
+.SR_pageLink, .SR_pageLink a, .SR_pageLink a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* ------------------- Search Results Page Listing End------------------- */
+
+/* ------------------- Blog Style Begin --------------------------------- */
+
+.Blog_Post_Mini_Metadata {
+	font-size: 8px;
+	font-weight:bold;
+	color: #003366;
+}
+
+.Blog_Post_Mini_Text {
+	font-size: 12px;
+	color: #003366;
+}
+
+.Blog_Post_Mini_Text a:link, .Blog_Post_Mini_Text a:visited, .Blog_Post_Mini_Text a  {
+	color: #003366;
+}
+
+.Blog_Mini_Title {
+	font-size: 8px;
+	color: #003366;
+	font-weight:bold;
+}
+
+.Blog_Post_Mini_Readmore, .Blog_Post_Mini_Readmore a:link, .Blog_Post_Mini_Readmore a:visited, .Blog_Post_Mini_Readmore a{
+	font-size: 10px;
+	color: #003366;
+	font-weight:bold;
+	padding-bottom:15px;
+	text-align:right;
+	background-color:#efefef;
+}
+
+.Blog_Post_Mini_Title, Blog_Post_Mini_Title a:link, .Blog_Post_Mini_Title a:visited, .Blog_Post_Mini_Title a  {
+	font-size: 13px;
+	font-weight:bold;
+	color: #003366;
+	background-color:#efefef;
+}
+
+#Blog_Mini_Title {
+	display:none;
+}
+
+.Blog_Recent_Entry_Title, .Blog_Recent_Entry_Title a:link, .Blog_Recent_Entry_Title a:visited, .Blog_Recent_Entry_Title a {
+	font-size: 12px;
+	color: #003366;
+
+}
+
+.Blog_Archive_Title, .Blog_Archive_Title a:link, .Blog_Archive_Title a:visited, .Blog_Archive_Title a {
+	font-size: 12px;
+	color: #003366;
+}
+
+.Blog_Sidebar_Recent_Posts {
+	padding-left: 10px;
+	vertical-align:top;
+}
+
+.Blog_Sidebar_Archive {
+	padding-top: 5px;
+	padding: 10px;
+}
+
+.Blog_Sidebar {
+	white-space: wrap;
+	vertical-align:top;
+}
+
+#Blog_Title, #Blog_Title a:link, #Blog_Title a:visited , #Blog_Title a:hover, #Blog_Title img {
+	font-size:20px;
+	font-weight:bold;
+	text-decoration: none;
+	display: block;
+	vertical-align:top;
+	border:none;
+ }
+
+#Blog_Home_Link {
+	padding-top:5px;
+}
+
+
+#Blog_Title_Text
+{
+}
+
+.Blog_Post_Title {
+	margin-top:10px;
+	font-weight:bold;
+}
+
+#Blog_Sidebar_Recent_Posts_Title {
+	color:#003366;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#Blog_Sidebar_Archive_Title {
+	color:#003366;
+	font-weight:bold;
+	font-size:14px;
+	padding-top:30px;
+}
+
+.Blog_Post_Metadata {
+	font-size:9px;
+}
+
+.Blog_Post_Text {
+	font-size:12px;
+	color:#000000;
+	margin-right:20px;
+}
+
+.Blog_Post_Text p {
+	margin:0px;
+}
+
+#Blog_Title_Container {
+	border:hidden;
+}
+
+/* ------------------- Blog Style End --------------------------------- */
+
+.HomePageBox
+{
+	/* background-color: #efe6c7; */
+	/* background-color: #dde0c7; */
+	background-color: #efefef;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.HomePageBoxBorder
+{
+ 	border-color: #e1dddd;
+/* 	border-color: #878282;
+ 	border-color: #849fbc;  */
+	border-style: solid;
+	font-size: 0px;
+}
+
+.HomePageBoxCorner
+{
+	width: 6px;
+	height: 6px;
+}
+
+.HomePageBoxContent
+{
+	width: 100%;
+}
+
+.HomePageBoxContent td
+{
+	padding: 3px;
+}
+
+.HomePageBoxTitle
+{
+	width: 100%;
+	/* margin-bottom: 8px; */
+}
+
+.HomePageBoxTitle .title
+{
+	background-image: url(http://info.ncleg.net/graphics/HomePage/HomePageBoxTitleBackground.jpg);
+	text-align: center;
+        border-top: 1px solid #000000; /* #849fbc; */
+	border-bottom: 1px solid #000000;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.HomePageBoxFooter, .HomePageBoxFooter a
+{
+	margin-top: 10px;
+	border-top: 1px solid #849fbc;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+}
+
+.DocSiteiframe 
+{
+ 	background-color: #eeece5;
+	padding: 0px 0px 0px 0px;
+	height: auto;
+	width: 800px;
+}
+
+/*
+   Styling for CSS-based drop-down menus.
+
+   (C) Copyright 2006 Just Software Solutions Ltd. 
+   Distributed under the Boost Software License, Version 1.0. 
+   (See http://www.boost.org/LICENSE_1_0.txt)
+*/
+@media all{
+.navmenu, 
+.navmenu ul,
+.navmenu li
+{
+    padding: 0px;
+    margin: 0px;
+}
+.navmenu > li
+{
+    float: left;
+}
+.navmenu li
+{
+    list-style-type: none;
+    border: 1px solid #3366cc;
+    color: black;
+    background-color: #6699FF;
+    padding: 2px;
+}
+.navmenu ul
+{
+    display: none;
+    position: absolute;
+    margin-left: -3px;
+    margin-top: 2px;
+}
+.navmenu li:hover > ul
+{
+    display: block;
+}
+.navmenu ul.parent_hover
+{
+    display: block;
+}
+.navmenu a
+{
+    color: black;
+    background: none;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+.navmenu li:hover
+{
+    color: black;
+    background-color: #f8f8fb;
+}
+.navmenu li.hover,
+.navmenu a:hover
+{
+    color: black;
+    background-color: #f8f8fb;
+}
+.navmenu ul ul
+{
+    margin-top: -1.2em;
+    left: 99%;
+}
+.navmenu span
+{
+    display: block;
+}
+.navmenu
+{
+    float: left;
+    width: 100%;
+    color: black;
+    background-color: #6699FF;
+}
+.endmenu
+{
+    clear: left;
+}
+
+

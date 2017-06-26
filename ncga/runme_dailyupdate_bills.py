@@ -14,7 +14,7 @@ import logging
 
 import utils
 import mysql_utils
-import process_dailyupdates_pages
+import extract_dailyfeed_content
 
 
 def process_day(date, sleep_time):
@@ -29,9 +29,9 @@ def process_day(date, sleep_time):
             logger.info("Retrieving data for Day " + \
                          datetime.datetime.strftime(date, '%Y-%m-%d') + \
                          " Chamber: " + c)
-            data = process_dailyupdates_pages.get_DailyUpdateForDateChamber(yr, mo, da, c)
-            data = data[data.Action=='Filed']
-            logger.info("{} new filed billes retrieved".format(data.shape[0]))
+            data = extract_dailyfeed_content.get_DailyUpdateForDateChamber(yr, mo, da, c)
+            data = data[data.ActionText=='Filed']
+            logger.info("{} new filed bills retrieved".format(data.shape[0]))
             out = mysql_utils.dump_filed_bills(data)
             if out == 'Fail':
                 logging.warning("Failed to add to DB.")
